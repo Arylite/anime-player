@@ -49,6 +49,7 @@ export function nameLecteur(url: string): string {
     const mainDomain = domain.split('.')[0];
     return mainDomain.charAt(0).toUpperCase() + mainDomain.slice(1);
   } catch (error) {
+    console.error("Error fetching or parsing the file:", error);
     return url;
   }
 }

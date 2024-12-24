@@ -1,4 +1,3 @@
-import { useAnime } from "@/stores/useAnime";
 import { LoaderCircle } from "lucide-react";
 
 interface PlayerProps {
