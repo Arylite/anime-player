@@ -13,7 +13,7 @@ export const Player = ({ url }: PlayerProps) => {
         <div className="flex items-center justify-center w-full h-full">
           <LoaderCircle className="w-4 h-4 animate-spin text-muted-foreground" />
           <span className="text-sm text-muted-foreground mx-1">
-            En Attente de l'épisode
+            En Attente de l&apos;épisode
           </span>
         </div>
       )}
